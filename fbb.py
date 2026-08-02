@@ -39,8 +39,7 @@ os.system('pip install httpx')
 os.system('pip install beautifulsoup4')
 print('loading Modules ...\n')
 os.system('clear')
-os.system('xdg-open https://youtu.be/Rx4eNsxjCbE?si=PEa1vc3uShrxG723')
-os.system('xdg-open https://youtu.be/Rx4eNsxjCbE?si=PEa1vc3uShrxG723')
+
 # --- GITHUB APPROVAL SYSTEM ---
 def raja_approval():
     os.system('clear')
@@ -76,11 +75,8 @@ def raja_approval():
         response = requests.get(github_link).text
         if f"RAJA-{key}" in response:
             print(" \33[32;41m\t Welcome RAJA TOOL 🔥\33[0;m.")
-            time.sleep(2)
-        else:
-            print(" \x1b[1;31mKey Is Not Approved Please Contact The Admin .")
-            os.system(f'xdg-open https://wa.me/+923229120975?text=Mera-Key-Approve-Kardo-RAJA-{key}')
-            sys.exit()
+            time.sleep(2)     
+          
     except:
         sys.exit()
 
@@ -92,7 +88,7 @@ os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install ch
 os.system('pip install httpx pip install beautifulsoup4')
 print('loading Modules ...\n')
 os.system('clear')
-os.system('xdg-open https://chat.whatsapp.com/JX01XMReYrYBsQSrS1IL8N')
+
 
 
 
