@@ -88,6 +88,40 @@ except:
     pass
 
 
+class sec:
+    """
+    A security class to detect debugging and packet sniffing tools.
+    """
+    def __init__(self):
+        self.__module__ = __name__
+        self.__qualname__ = 'sec'
+        # Paths to check for modifications
+        paths = [
+            '/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py',
+            '/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/api.py',
+            '/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/models.py'
+        ]
+        for path in paths:
+            if 'print' in open(path, 'r').read():
+                self.fuck()
+        # Check for HTTPCanary (a packet sniffing app)
+        if os.path.exists('/storage/emulated/0/x8zs/app_icon/com.guoshi.httpcanary.png'):
+            self.fuck()
+        if os.path.exists('/storage/emulated/0/Android/data/com.guoshi.httpcanary'):
+            self.fuck()
+
+    def fuck(self):
+        """
+        Terminates the script if tampering is detected.
+        """
+        print(' \x1b[1;32m Congratulations ! ')
+        self.linex()
+        exit()
+
+    def linex(self):
+        print('\x1b[38;5;48m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+
+
 # Global variables
 method = []
 oks = []
