@@ -239,11 +239,11 @@ def ____banner____():
 ║\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•>\x1b[0;41m[ WORKING WIFI+MOBILE DATA ]\x1b[0;92m\x1b[10;91m<•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[10;91m•\x1b[10;92m•\x1b[0;92m\x1b[10;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \x1b[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗ 
-\033[1;93m║ Author    : MR-RAJA CLONER 420              ║
-\033[1;92m║ Facebook  : RAJA CLONER                     ║
-\033[1;96m║ GitHub    : RAJA-CYBER420                   ║
-\033[1;95m║ Telegram  : R C 4                           ║
-\033[1;91m║ Tool      : PAID                            ║
+\033[1;93m║ Author    : BAYEZID BOSTAMI           ║
+\033[1;92m║ Facebook  : BAYEZID                    ║
+\033[1;96m║ GitHub    : BAYEZID                 ║
+\033[1;95m║ Telegram  : NEEL                         ║
+\033[1;91m║ Tool      : FREE FOR ACS IT                            ║
 \033[1;97m║ Version   : 2.5.8                           ║
 \x1b[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m                      
 \033[0m""")
